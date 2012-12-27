@@ -1,0 +1,543 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"ibr_lingor",
+		"ibr_lcivilian_patch",
+		"ace_sys_repair",
+		"ace_sys_wounds",
+		"ca_missions_garbagecollector",
+		"ace_sys_interaction",
+		"chn_crocodile",
+		"cacharacters2",
+		"lingor_objects",
+		"cacharacters_e",
+		"ibr_arl",
+		"CAWheeled",
+		"cawheeled_e_v3s",
+		"CAWheeled2_Kamaz",
+		"ibr_maule",
+		"ibr_as350lingor",
+		"ibr_adventure",
+		"ca_modules_clouds",
+		"ca_modules_animals",
+		"camisc3",
+		"CAWheeled2_Ikarus"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"ibr_lcivilian_patch",
+		"ace_sys_repair",
+		"ace_sys_wounds",
+		"ca_missions_garbagecollector",
+		"ace_sys_interaction",
+		"chn_crocodile",
+		"cacharacters_e",
+		"ca_modules_clouds",
+		"ca_modules_animals",
+		"camisc3",
+		"CAWheeled2_Ikarus",
+		"ibr_lingor"
+	};
+	randomSeed=3591337;
+	class Intel
+	{
+		startWeather=0.050000001;
+		forecastWeather=0.050000001;
+		year=2011;
+		month=1;
+		day=6;
+		hour=13;
+		minute=0;
+	};
+	class Groups
+	{
+		items=19;
+		class Item0
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6461.6558,12.212019,6698.9512};
+					azimut=183.21201;
+					id=0;
+					side="CIV";
+					vehicle="Citizen1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					fuel=0.93070501;
+					text="play1";
+				};
+			};
+		};
+		class Item1
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6447.7217,12.212019,6709.5264};
+					azimut=583.737;
+					id=1;
+					side="CIV";
+					vehicle="ibr_lingorman6";
+					leader=1;
+					skill=0.60000002;
+					text="derp";
+					init="this setVariable[""job"",""car""]; this setVariable[""spawnPos"",position carSpawnAirport]; this allowDamage false; doStop this;";
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6429.2949,12.212019,6695.6699};
+					azimut=312.45401;
+					id=2;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="carSpawnAirport";
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9999.5898,1.4109102,10044.047};
+					id=3;
+					side="LOGIC";
+					vehicle="ace_sys_repair_tyres";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9737.25,1.418314,10049.629};
+					id=4;
+					side="LOGIC";
+					vehicle="ACE_Wounds_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item5
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9508.3984,1.2437828,10050.659};
+					id=5;
+					side="LOGIC";
+					vehicle="ACE_Wounds_EveryoneMedic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item6
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9731.3623,1.2178804,9588.6416};
+					id=6;
+					side="LOGIC";
+					vehicle="GarbageCollector";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item7
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10001.048,1.3246675,9816.8096};
+					id=7;
+					side="LOGIC";
+					vehicle="ACE_NoCivilianInteraction";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item8
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10006.787,1.2129782,9608.3809};
+					id=8;
+					side="LOGIC";
+					vehicle="CHN_VIRTCROC_LINGOR";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item9
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6442.418,12.212019,6712.2754};
+					azimut=183.21201;
+					id=9;
+					side="CIV";
+					vehicle="Citizen1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item10
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6448.0308,12.212019,6713.1426};
+					azimut=183.21201;
+					id=10;
+					side="CIV";
+					vehicle="ibr_lingorman4";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="play2";
+				};
+			};
+		};
+		class Item11
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6522.75,12.212019,6882.9727};
+					azimut=409.67584;
+					id=11;
+					side="CIV";
+					vehicle="Pilot_EP1";
+					leader=1;
+					skill=0.60000002;
+					text="derp_1";
+					init="this setVariable[""job"",""plane""]; this setVariable[""spawnPos"",position planeSpawnAirport]; this allowDamage false; doStop this;";
+				};
+			};
+		};
+		class Item12
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6536.2715,12.212019,6894.8638};
+					azimut=312.45401;
+					id=12;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="planeSpawnAirport";
+				};
+			};
+		};
+		class Item13
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9507.2266,0.6067223,9821.9141};
+					id=13;
+					side="LOGIC";
+					vehicle="BIS_clouds_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item14
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6449.0645,12.212019,6713.1714};
+					azimut=183.21201;
+					id=14;
+					side="CIV";
+					vehicle="ibr_lingorman3";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="play3";
+				};
+			};
+		};
+		class Item15
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6449.9722,12.212019,6713.1455};
+					azimut=183.21201;
+					id=15;
+					side="CIV";
+					vehicle="ibr_lingorman2";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="play4";
+				};
+			};
+		};
+		class Item16
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6450.5615,12.212019,6713.1733};
+					azimut=183.21201;
+					id=16;
+					side="CIV";
+					vehicle="Profiteer1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					fuel=0.93070501;
+					text="play5";
+				};
+			};
+		};
+		class Item17
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6451.0269,12.212019,6713.1987};
+					azimut=183.21201;
+					id=17;
+					side="CIV";
+					vehicle="Pilot";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					fuel=0.93070501;
+					text="play6";
+				};
+			};
+		};
+		class Item18
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9736.2168,-17.243341,9818.7539};
+					id=18;
+					side="LOGIC";
+					vehicle="BIS_animals_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=3;
+		class Item0
+		{
+			position[]={6463.7729,12.212019,6694.9058};
+			id=19;
+			side="EMPTY";
+			vehicle="Sr_border";
+			leader=1;
+			skill=0.60000002;
+			text="bstop";
+		};
+		class Item1
+		{
+			position[]={6432.6274,12.212019,6641.9604};
+			azimut=89.932701;
+			special="NONE";
+			id=20;
+			side="EMPTY";
+			vehicle="Ikarus";
+			leader=1;
+			skill=0.60000002;
+			text="bepbep";
+			init="_d = [this,[position bstart,position bstop]] execVM ""client\scripts\jobs\jobBus.sqf"";";
+		};
+		class Item2
+		{
+			position[]={6464.1826,12.212019,6653.7441};
+			id=21;
+			side="EMPTY";
+			vehicle="Sr_border";
+			leader=1;
+			skill=0.60000002;
+			text="bstart";
+		};
+	};
+	class Markers
+	{
+		items=2;
+		class Item0
+		{
+			position[]={6425.9761,12.212019,6774.5708};
+			name="respawn_civilian";
+			type="Empty";
+		};
+		class Item1
+		{
+			position[]={6468.6343,12.212019,6692.2222};
+			name="bstopairport";
+			text="Airport Bus Stop";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"ibr_lingor"
+	};
+	addOnsAuto[]=
+	{
+		"ibr_lingor"
+	};
+	randomSeed=9477719;
+	class Intel
+	{
+		startWeather=0.050000001;
+		forecastWeather=0.050000001;
+		year=2011;
+		month=1;
+		day=6;
+		hour=13;
+		minute=0;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"ibr_lingor"
+	};
+	addOnsAuto[]=
+	{
+		"ibr_lingor"
+	};
+	randomSeed=4769846;
+	class Intel
+	{
+		startWeather=0.050000001;
+		forecastWeather=0.050000001;
+		year=2011;
+		month=1;
+		day=6;
+		hour=13;
+		minute=0;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"ibr_lingor"
+	};
+	addOnsAuto[]=
+	{
+		"ibr_lingor"
+	};
+	randomSeed=1895441;
+	class Intel
+	{
+		startWeather=0.050000001;
+		forecastWeather=0.050000001;
+		year=2011;
+		month=1;
+		day=6;
+		hour=13;
+		minute=0;
+	};
+};
