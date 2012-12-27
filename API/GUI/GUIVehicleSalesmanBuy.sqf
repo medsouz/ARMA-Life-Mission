@@ -18,31 +18,31 @@ _menus = [
 	[
 		["Skodas","Buying a Skoda", _menuRsc],
 		[
-			["White Skoda ($20)",{["Skoda", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
-            ["Blue Skoda ($20)",{["SkodaBlue", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
-            ["Green Skoda ($20)",{["SkodaGreen", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
-            ["Red Skoda ($20)",{["SkodaRed", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true]
+			["White Skoda ($2500)",{["Skoda", spawnPos, plyr, 2500] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
+            ["Blue Skoda ($2500)",{["SkodaBlue", spawnPos, plyr, 2500] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
+            ["Green Skoda ($2500)",{["SkodaGreen", spawnPos, plyr, 2500] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
+            ["Red Skoda ($2500)",{["SkodaRed", spawnPos, plyr, 2500] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true]
 		]
 	],
     [
         ["Hatchbacks","Buying a Hatchback", _menuRsc],
 		[
-			["Golf ($20)",{["VWGolf", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
-            ["Old Hatchback ($20)",{["car_hatchback", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true]
+			["Golf ($5000)",{["VWGolf", spawnPos, plyr, 5000] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
+            ["Old Hatchback ($2500)",{["car_hatchback", spawnPos, plyr, 2500] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true]
 		]
     ],
     [
         ["Planes","Buying a Plane", _menuRsc],
 		[
-			["AN-2 TakAir ($20)",{["An2_2_TK_CIV_EP1", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
-            ["AN-2P Civ ($20)",{["An2_1_TK_CIV_EP1", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true]
+			["AN-2 TakAir ($125000)",{["An2_2_TK_CIV_EP1", spawnPos, plyr, 125000] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
+            ["AN-2P Civ ($125000)",{["An2_1_TK_CIV_EP1", spawnPos, plyr, 125000] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true]
 		]
     ],
     [
         ["Helicopters","Buying a Helicopter", _menuRsc],
 		[
-			["Little Bird (Civilian) ($20)",{["AH6X_EP1", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
-            ["Mi17 (Civilian) ($20)",{["Mi17_Civilian", spawnPos, plyr, 20] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true]
+			["Little Bird (Civilian) ($150000)",{["AH6X_EP1", spawnPos, plyr, 150000] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true],
+            ["Mi17 (Civilian) ($175000)",{["Mi17_Civilian", spawnPos, plyr, 175000] execVM "API\spawnVehicle.sqf";},"", "", "", -1,true]
 		]
     ]
 ];
